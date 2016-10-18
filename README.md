@@ -1,6 +1,6 @@
 infinitewa.com
 =========
-infinitewa.com built with [Angular 2](https://angular.io)
+infinitewa.com built with [Angular](https://angularjs.org)
 
 Welcome to our website's github repo!
 --------------------
