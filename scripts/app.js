@@ -3,7 +3,16 @@ angular.module('iwa', [])
   $scope.helloworld = function() {
     console.log('hello there');
   };
+
+  $scope.lists = [
+    {
+      name : 'Marshall'
+    },
+    {
+      name : 'Andre'
+    }
+  ];
 })
 .controller('contactCtrl', function($scope) {
-  
+
 });
