@@ -6,13 +6,27 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="author" content="Caleb Nance">
       <title>Infinite Web Applications</title>
-
-      <!-- Styles -->
       <link href="styles/app.css" rel="stylesheet">
     </head>
     <body ng-app="iwa">
+
       <h1>INFINITE<br><small>Web Applications</small></h1>
+
+      <div ng-controller="mainCtrl">
+        <div ng-click="helloworld()">
+          Hello World!
+        </div>
+      </div>
+
+      <div class="form-contact">
+        <input ng-model="contact.name" />
+        <input ng-model="contact.mail" />
+        <input ng-model="contact.type" />
+        <input ng-model="contact.desc" />
+      </div><!-- /.form-contact -->
+
       <script src="scripts/angular.min.js"></script>
       <script src="scripts/app.js"></script>
+      <script src="scripts/infinite.js"></script>
     </body>
 </html>
