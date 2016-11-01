@@ -19,6 +19,9 @@
         <div ng-click="helloConsole()">
           Hello Console!
         </div>
+        <div class="add">
+          <a href="" ng-click="addToList()">+ Add To List</a>
+        </div>
         <div ng-repeat="list in lists">
             {{ list.name }}
             <span ng-click="saveData(list.name)">Save</span>

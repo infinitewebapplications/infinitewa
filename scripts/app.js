@@ -15,6 +15,11 @@ angular.module('iwa', [])
     }
   ];
 
+  $scope.addToList = function() {
+    var newListItem = { name : 'Whoa!' };
+    $scope.lists.push(newListItem);
+  };
+
   $scope.saveData = function(toSave) {
     dataService.saveData(toSave);
   };
