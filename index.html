@@ -21,6 +21,8 @@
         </div>
         <div ng-repeat="list in lists">
             {{ list.name }}
+            <span ng-click="saveData(list.name)">Save</span>
+            <span ng-click="deleteData(list.name, $index)">Delete</span>
         </div>
       </div>
 

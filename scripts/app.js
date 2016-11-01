@@ -15,6 +15,18 @@ angular.module('iwa', [])
     }
   ];
 
+  $scope.saveData = function(toSave) {
+    dataService.saveData(toSave);
+  };
+
+  $scope.deleteData = function(toDelete, index) {
+    dataService.deleteData(toDelete);
+    // removes the selected list item
+    $scope.lists.splice(index, 1);
+    // new lists array (updated)
+    console.log($scope.lists);
+  };
+
   dataService.getData(function(response){
     console.log(response);
     $scope.lists = response.data;
@@ -28,6 +40,14 @@ angular.module('iwa', [])
 
   this.getData = function(callback) {
     $http.get('mock/data.json').then(callback);
+  };
+
+  this.saveData = function(toSave) {
+    console.log('to save :: ' + toSave);
+  };
+
+  this.deleteData = function(toDelete) {
+    console.log('to delete :: ' + toDelete);
   };
 
 })
