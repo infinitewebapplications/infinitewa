@@ -12,6 +12,8 @@
 
       <h1>INFINITE<br><small>Web Applications</small></h1>
 
+      <br>
+
       <div ng-controller="mainCtrl">
         <div ng-click="helloworld()">
           Hello World!
@@ -19,16 +21,28 @@
         <div ng-click="helloConsole()">
           Hello Console!
         </div>
+        <br>
         <div class="add">
           <a href="" ng-click="addToList()">+ Add To List</a>
         </div>
+        <br>
         <div ng-repeat="list in lists">
+          <div class="list-item" ng-class="{'editing-item' : editing, 'edited' : list.edited }">
             {{ list.name }}
+            <input ng-change="list.edited = true" ng-blur="editing = false;" ng-show="editing" ng-model="list.name" class="editing-name" type="text" />
+            <span ng-click="editing = !editing">Edit</span>
             <span ng-click="saveData(list.name)">Save</span>
             <span ng-click="deleteData(list.name, $index)">Delete</span>
+            <br>
+          </div>
         </div>
       </div>
 
+      <br>
+      <br>
+      <br>
+
+      Contact CTRL
       <div class="form-contact" ng-controller="contactCtrl">
         <input ng-model="contact.name" ng-change="ngChanged()" />
         <input ng-model="contact.mail" />
