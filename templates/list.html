@@ -1,16 +1,18 @@
-<div class="add">
-  <a href="" ng-click="addToList()">+ Add To List</a>
-</div><!-- /.add -->
+<div class="list">
+  <div class="add">
+    <a href="" ng-click="addToList()">+ Add To List</a>
+  </div><!-- /.add -->
 
-<br>
+  <br>
 
-<div ng-repeat="list in lists | orderBy: 'name'" ng-init="list.completed = false">
-  <div class="list-item" ng-class="{'editing-item' : editing, 'edited' : list.edited }">
-    {{ list.name }}
-    <input ng-change="list.edited = true" ng-blur="editing = false;" ng-show="editing" ng-model="list.name" class="editing-name" type="text" />
-    <span ng-click="editing = !editing">Edit</span>
-    <span ng-click="saveData(list.name)">Save</span>
-    <span ng-click="deleteData(list.name, $index)">Delete</span>
-    <br>
+  <div ng-repeat="list in lists | orderBy: 'name'" ng-init="list.completed = false">
+    <div class="list-item" ng-class="{'editing-item' : editing, 'edited' : list.edited }">
+      {{ list.name }}
+      <input ng-change="list.edited = true" ng-blur="editing = false;" ng-show="editing" ng-model="list.name" class="editing-name" type="text" />
+      <span ng-click="editing = !editing">Edit</span>
+      <span ng-click="saveData(list.name)">Save</span>
+      <span ng-click="deleteData(list.name, $index)">Delete</span>
+      <br>
+    </div>
   </div>
 </div>
