@@ -8,28 +8,35 @@ h1 {
   line-height: 26px;
 }
 
-h1 small {
+h1 small,
+h2 {
   color: #005091;
 }
 
-a {
-  background-color: #005091;
-  color: #fff;
+a,
+a:hover {
+  color: #005091;
+  text-decoration: none;
+}
+
+a.link {
+  background-color: #fff;
+  color: #005091;
   line-height: 32px;
-  padding: 2px 4px;
+  padding: 4px 6px;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -o-transition: all 400ms ease;
   transition: all 400ms ease;
 }
 
-a:hover {
-  background-color: #fff;
-  color: #005091;
+a.link:hover {
+  background-color: #005091;
+  color: #fff;
   text-decoration: none;
 }
 
-p {
+ul.lead li {
   font-size: 21px;
   font-weight: 300;
   line-height: 1.4;
@@ -45,11 +52,16 @@ svg {
 }
 
 .logo {
-  margin-top: 3px;
+  margin-top: 18px;
 }
 
 .heading {
   margin-left: 20px;
+  margin-top: 35px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 
 .mt-20 {
