@@ -5,8 +5,75 @@ body {
 h1 {
   color: #005091;
   font-size: 250%;
+  line-height: 26px;
+}
+
+h1 small,
+h2 {
+  color: #005091;
+}
+
+a,
+a:hover {
+  color: #005091;
+  text-decoration: none;
+}
+
+a.link {
+  background-color: #fff;
+  color: #005091;
+  line-height: 32px;
+  padding: 4px 6px;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+a.link:hover {
+  background-color: #005091;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.lead li {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
 }
 
 svg {
   width: 75px;
+}
+
+.logo,
+.heading {
+  float: left;
+}
+
+.logo {
+  margin-top: 18px;
+}
+
+.heading {
+  margin-left: 20px;
+  margin-top: 35px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.delay-1 {
+  -webkit-animation-delay: 900ms;
+  animation-delay: 900ms;
+}
+
+.delay-2 {
+  -webkit-animation-delay: 1800ms;
+  animation-delay: 1800ms;
 }
