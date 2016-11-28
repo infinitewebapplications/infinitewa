@@ -60,6 +60,15 @@ svg {
   margin-top: 35px;
 }
 
+/* portfolio */
+.port-desc {
+  min-height: 48px;
+}
+
+.port-user {
+  min-height: 36px;
+}
+
 .mb-0 {
   margin-bottom: 0;
 }
