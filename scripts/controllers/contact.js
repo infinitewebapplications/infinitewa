@@ -1,8 +1,14 @@
-angular.module('iwa')
-.controller('contactCtrl', function($scope) {
+'use strict';
 
-  $scope.ngChanged = function() {
-    console.log('this input changed..');
-  };
+app.controller('contactCtrl', function($scope) {
+
+  $scope.submit = function(form) {
+    // form valid?
+    if(form.$valid === true) {
+
+    } else {
+
+    }
+  }
 
 });

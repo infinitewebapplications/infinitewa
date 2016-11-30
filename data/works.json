@@ -1,0 +1,70 @@
+[
+  {
+    "btns" : [
+      {
+        "icon" : "globe",
+        "link" : "https://arca.com/resources/videos/arca-concert-software-solution",
+        "text" : "Website",
+        "type" : "primary"
+      }
+    ],
+    "desc" : "Built on Laravel with Bootstrap & HTML/CSS/JQuery",
+    "head" : "ARCA - Concert",
+    "thum" : "arca-concert_thumb.png",
+    "user" : "Developer: Caleb Nance (Front End)"
+  },
+  {
+    "btns" : [
+      {
+        "icon" : "globe",
+        "link" : "https://www.sunbrella.com",
+        "text" : "Website",
+        "type" : "primary"
+      }
+    ],
+    "desc" : "Built on CakePHP with Bootstrap & HTML/CSS/JQuery",
+    "head" : "Sunbrella",
+    "thum" : "sunbrella_thumb.png",
+    "user" : "Developer: Caleb Nance (Front End)"
+  },
+  {
+    "btns" : [
+      {
+        "icon" : "globe",
+        "link" : "https://www.infinitewa.com",
+        "text" : "Website",
+        "type" : "primary"
+      },
+      {
+        "icon" : "equalizer",
+        "link" : "https://github.com/infinitewebapplications/infinitewa/blob/master/README.md",
+        "text" : "Github",
+        "type" : "default"
+      }
+    ],
+    "desc" : "Built with AngularJS",
+    "head" : "Infinite Web Applications",
+    "thum" : "infinite-web-app_thumb.png",
+    "user" : "Developer: Caleb Nance (Full Site)"
+  },
+  {
+    "btns" : [
+      {
+        "icon" : "globe",
+        "link" : "https://www.truvdesign.com",
+        "text" : "Website",
+        "type" : "primary"
+      },
+      {
+        "icon" : "equalizer",
+        "link" : "https://github.com/infinitewebapplications/truvdesign/blob/master/README.md",
+        "text" : "Github",
+        "type" : "default"
+      }
+    ],
+    "desc" : "Built with AngularJS",
+    "head" : "TruVdesign",
+    "thum" : "truvdesign_thumb.png",
+    "user" : "Developer: Caleb Nance (Full Site)"
+  }
+]
