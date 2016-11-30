@@ -17,6 +17,10 @@ a,
 a:hover {
   color: #005091;
   text-decoration: none;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 a.link {
@@ -24,10 +28,6 @@ a.link {
   color: #005091;
   line-height: 32px;
   padding: 4px 6px;
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
-  transition: all 400ms ease;
 }
 
 a.link:hover {
@@ -36,12 +36,11 @@ a.link:hover {
   text-decoration: none;
 }
 
-@media (min-width: 768px) {
-  ul.lead li {
-    font-size: 21px;
-    font-weight: 300;
-    line-height: 1.4;
-  }
+ul.lead li {
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 svg {
@@ -91,4 +90,12 @@ svg {
 .delay-2 {
   -webkit-animation-delay: 1800ms;
   animation-delay: 1800ms;
+}
+
+@media (min-width: 768px) {
+  ul.lead li {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
 }
