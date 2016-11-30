@@ -1,1 +1,1 @@
-angular.module('iwa', []);
+var app = angular.module('iwa', []);
