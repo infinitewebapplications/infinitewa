@@ -11,6 +11,7 @@
     "desc" : "Built on Laravel with Bootstrap & HTML/CSS/JQuery",
     "head" : "ARCA - Concert",
     "thum" : "arca-concert_thumb.png",
+    "ulnk" : "http://calebnance.com",
     "user" : "Developer: Caleb Nance (Front End)"
   },
   {
@@ -25,6 +26,7 @@
     "desc" : "Built on CakePHP with Bootstrap & HTML/CSS/JQuery",
     "head" : "Sunbrella",
     "thum" : "sunbrella_thumb.png",
+    "ulnk" : "http://calebnance.com",
     "user" : "Developer: Caleb Nance (Front End)"
   },
   {
@@ -45,6 +47,7 @@
     "desc" : "Built with AngularJS",
     "head" : "Infinite Web Applications",
     "thum" : "infinite-web-app_thumb.png",
+    "ulnk" : "http://calebnance.com",
     "user" : "Developer: Caleb Nance (Full Site)"
   },
   {
@@ -65,6 +68,7 @@
     "desc" : "Built with AngularJS",
     "head" : "TruVdesign",
     "thum" : "truvdesign_thumb.png",
+    "ulnk" : "http://calebnance.com",
     "user" : "Developer: Caleb Nance (Full Site)"
   }
 ]
