@@ -18,21 +18,6 @@
     "btns" : [
       {
         "icon" : "globe",
-        "link" : "https://www.sunbrella.com",
-        "text" : "Website",
-        "type" : "primary"
-      }
-    ],
-    "desc" : "Built on CakePHP with Bootstrap & HTML/CSS/JQuery",
-    "head" : "Sunbrella",
-    "thum" : "sunbrella_thumb.png",
-    "ulnk" : "http://calebnance.com",
-    "user" : "Developer: Caleb Nance (Front End)"
-  },
-  {
-    "btns" : [
-      {
-        "icon" : "globe",
         "link" : "https://www.infinitewa.com",
         "text" : "Website",
         "type" : "primary"
